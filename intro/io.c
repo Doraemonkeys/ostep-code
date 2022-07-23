@@ -6,8 +6,9 @@
 #include <sys/types.h>
 #include <string.h>
 
-int main(int argc, char *argv[]) {
-    int fd = open("/tmp/file", O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+int main(int argc, char *argv[])
+{   //原版"/tmp/file"在根目录文件中
+    int fd = open("./tmp/file", O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
     assert(fd >= 0);
     char buffer[20];
     sprintf(buffer, "hello world\n");
@@ -17,4 +18,3 @@ int main(int argc, char *argv[]) {
     close(fd);
     return 0;
 }
-

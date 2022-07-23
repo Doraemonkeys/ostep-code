@@ -1,0 +1,15 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/h/doraemon/IT/C/ostep-code/cpu-api",
+            "binaryPath": "/home/h/doraemon/IT/C/ostep-code/cpu-api/p1",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/h/doraemon/IT/C/ostep-code/cpu-api",
+            "binaryPath": "/home/h/doraemon/IT/C/ostep-code/cpu-api/p4",
+            "binaryArgs": []
+        }
+    ]
+}

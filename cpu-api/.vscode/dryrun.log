@@ -1,0 +1,5 @@
+make all --dry-run --keep-going --print-directory
+make: Entering directory '/home/h/doraemon/IT/C/ostep-code/cpu-api'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/h/doraemon/IT/C/ostep-code/cpu-api'
+ 
