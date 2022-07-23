@@ -1,8 +1,0 @@
-make all --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/h/doraemon/IT/C/ostep-code/cpu-api'
-gcc -o p1 p1.c -Wall
-gcc -o p2 p2.c -Wall
-gcc -o p3 p3.c -Wall
-gcc -o p4 p4.c -Wall
-make: Leaving directory '/home/h/doraemon/IT/C/ostep-code/cpu-api'
- 
