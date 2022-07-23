@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 23 16:44:36 2022
+# Make data base, printed on Sat Jul 23 18:55:23 2022
 
 # Variables
 
@@ -141,7 +141,7 @@ LC_PAPER = zh_CN.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-717834c0-ba66-464f-8cbf-3b5c70e1f6da.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-0dd7c47b-ebdd-4875-b18b-20e68d19c95a.sock
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -175,9 +175,9 @@ SSH_CONNECTION = 192.168.217.1 12350 192.168.217.134 22
 
 # Directories
 
-# . (device 2051, inode 1059554): 9 files, no impossibilities.
+# . (device 2051, inode 1059554): 13 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -207,7 +207,7 @@ Makefile:
 # Not a target:
 p1.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-23 13:02:55.564532999
+#  Last modified 2022-07-23 16:58:35.57396035
 #  File has been updated.
 #  Successfully updated.
 
@@ -269,7 +269,7 @@ p4.c:
 p1: p1.c
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
-#  File does not exist.
+#  Last modified 2022-07-23 16:48:25.444810252
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
@@ -305,9 +305,9 @@ p1: p1.c
 # strcache buffers: 1 (0) / strings = 19 / storage = 125 B / avg = 6 B
 # current buf: size = 8162 B / used = 125 B / count = 19 / avg = 6 B
 
-# strcache performance: lookups = 39 / hit rate = 51%
+# strcache performance: lookups = 43 / hit rate = 55%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/39=0%
-# Finished Make data base on Sat Jul 23 16:44:36 2022
+# Load=19/8192=0%, Rehash=0, Collisions=0/43=0%
+# Finished Make data base on Sat Jul 23 18:55:23 2022
 
  
